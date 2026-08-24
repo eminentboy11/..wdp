@@ -21,7 +21,7 @@ const DOWNLOAD_HEADERS = {
 
 
 function getOpenRouterApiKey() {
-  const key ='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';
+  const key ='';
   if (!key) {
     throw new Error('OPENROUTER_API_KEY is not set.');
   }
